@@ -1,0 +1,26 @@
+[
+  {
+    "ruleId": "RULE-SENSITIVE-OWNER",
+    "name": "Sensitive Data Ownership Restriction",
+    "description": "Sensitive data must remain with approved owners only.",
+    "severity": "high",
+    "enabled": true,
+    "condition": "sensitive_owner_allowlist"
+  },
+  {
+    "ruleId": "RULE-AADHAAR-REGION",
+    "name": "Aadhaar Residency Rule",
+    "description": "Aadhaar identifiers should only be processed in India region.",
+    "severity": "high",
+    "enabled": true,
+    "condition": "aadhaar_india_only"
+  },
+  {
+    "ruleId": "RULE-UNAUTHORIZED-ACCESS",
+    "name": "Unauthorized Access Pattern",
+    "description": "High login failure rate or privileged access outside normal context is suspicious.",
+    "severity": "medium",
+    "enabled": true,
+    "condition": "unauthorized_access_pattern"
+  }
+]

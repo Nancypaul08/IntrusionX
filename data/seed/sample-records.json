@@ -1,0 +1,29 @@
+[
+  {
+    "sourceType": "api",
+    "sourceName": "crm-api",
+    "owner": "marketing",
+    "region": "IN",
+    "actorId": "svc-campaign-01",
+    "content": "Customer Rahul email rahul@example.com aadhaar 1234-5678-9012 requested premium plan details.",
+    "tags": ["campaign", "customer"]
+  },
+  {
+    "sourceType": "logs",
+    "sourceName": "auth-gateway",
+    "owner": "security",
+    "region": "EU",
+    "actorId": "analyst-42",
+    "content": "Repeated failed login attempts detected from 10.20.10.2 without exposed PII.",
+    "tags": ["auth", "login-failures"]
+  },
+  {
+    "sourceType": "database",
+    "sourceName": "support-db",
+    "owner": "support",
+    "region": "IN",
+    "actorId": "agent-17",
+    "content": "User phone 9876543210 and PAN ABCDE1234F submitted account deletion request.",
+    "tags": ["ticket", "deletion-request"]
+  }
+]

@@ -1,0 +1,14 @@
+node_modules
+dist
+build
+.env
+.env.*
+__pycache__
+*.pyc
+.DS_Store
+coverage
+apps/frontend/dist
+apps/backend/uploads
+apps/ai-service/.venv
+data/*.log
+data/*.db
